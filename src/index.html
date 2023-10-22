@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="C:\Users\Administrator\Desktop\test2\expence-tracker\images\logo.jpg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awsome cdn  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- font family  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lumanosimo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Cut&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Expences-tracker</title>
+  <link rel="stylesheet" href="sass/style.css">
+
+</head>
+
+<body>
+
+  <section class="records">
+    <div class="record-div">
+
+      <div class="logo-sec">
+        <img src="C:\Users\Administrator\Desktop\test2\expence-tracker\images\logo.jpg" alt="expence-tracker">
+        <h3>expence-tracker</h3>
+      </div>
+      <hr>
+      <h3 id="username">saad ansari</h3>
+
+      <hr>
+      <div class="record-details">
+
+        <h3 class="status">Todays status</h3>
+
+
+        <div id="previous-date">
+          <h3>previous records </h3>
+          <i id="fa-chevron" class="fas fa-chevron-left"></i>
+        </div>
+
+        <div id="previous-input">
+          <input type="date">
+          <button>Done</button>
+        </div>
+      </div>
+    </div>
+    </select>
+
+  </section>
+  <section class="main-page">
+    <div class="todays-date">Date: <span></span></div>
+   <div class="status-bar">
+    <div class="status-bar-div">
+     <h2>Income</h2>
+     <h4>4000</h4>
+    </div>
+    <div class="status-bar-div">
+      <h2>Expence</h2>
+      <h4>820</h4>
+    </div>
+    <div class="status-bar-div">
+      <h2>Total</h2>
+      <h4>3180</h4>
+    </div>
+   </div>
+   <hr>
+
+   <div id="expence-list">
+    
+   </div>
+
+   <i id="fa-plus" class="fas fa-solid fa-plus"></i>
+
+   <div class="expence-form" id="expence-form">
+    
+      <div class="expence-catogry">
+       <label>Catagory</label><br>
+       <select  id="expence-type">
+        <option value="electronics">electronics💡</option>
+        <option value="food">foods🍕</option>
+        <option value="grocery">grocery🧽</option>
+        <option value="charity">charity🕌</option>
+        <option value="trip">trip🚗</option>
+        <option value="celebration">celebration🎂</option>
+       </select>
+      </div>
+  
+      <div class="expence-expence">
+        <label>Expence</label><br>
+        <input type="text" id="expence-amt">
+      </div>
+
+
+      <button id="expence-btn" class="expence-btn">DONE</button> 
+      <button id="exp-cancel-btn" class="expence-btn" style="background-color: rgba(255, 0, 0, 0.74);">CANCEL</button>    
+   </div>
+   
+   <div class="income-form">
+    
+    <div class="income-catogry">
+     <label>Catagory</label><br>
+     <select name="" id="">
+      <option value="savings">savings</option>
+      <option value="current">current</option>
+      <option value="fixed">fixed</option>
+     </select>
+    </div>
+
+    <div class="income-income">
+      <label>Income</label><br>
+      <input type="text">
+    </div>
+
+    
+    <button class="income-btn">DONE</button>
+    <button  class="expence-btn" style="background-color: rgba(255, 0, 0, 0.74);">CANCEL</button>
+  
+ </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
