@@ -94,6 +94,17 @@ body {
   color: #212529;
   cursor: pointer;
 }
+.main-page #deposit {
+  position: absolute;
+  left: 2rem;
+  bottom: 3rem;
+  padding: 1rem;
+  background-color: rgba(0, 128, 0, 0.836);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
 .main-page #expence-list {
   height: 64%;
   overflow-y: scroll;

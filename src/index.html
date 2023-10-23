@@ -56,15 +56,15 @@
    <div class="status-bar">
     <div class="status-bar-div">
      <h2>Income</h2>
-     <h4>4000</h4>
+     <h4 id="total-income-amount">4000</h4>
     </div>
     <div class="status-bar-div">
       <h2>Expence</h2>
-      <h4>820</h4>
+      <h4 id="total-exp-amount">0</h4>
     </div>
     <div class="status-bar-div">
       <h2>Total</h2>
-      <h4>3180</h4>
+      <h4 id="total-amount">4000</h4>
     </div>
    </div>
    <hr>
@@ -74,6 +74,7 @@
    </div>
 
    <i id="fa-plus" class="fas fa-solid fa-plus"></i>
+   <button id="deposit">Deposit</button>
 
    <div class="expence-form" id="expence-form">
     
@@ -99,25 +100,25 @@
       <button id="exp-cancel-btn" class="expence-btn" style="background-color: rgba(255, 0, 0, 0.74);">CANCEL</button>    
    </div>
    
-   <div class="income-form">
+   <div class="income-form" id="income-form">
     
-    <div class="income-catogry">
+    <!-- <div class="income-catogry">
      <label>Catagory</label><br>
      <select name="" id="">
       <option value="savings">savings</option>
       <option value="current">current</option>
       <option value="fixed">fixed</option>
      </select>
-    </div>
+    </div> -->
 
     <div class="income-income">
       <label>Income</label><br>
-      <input type="text">
+      <input type="text" id="income-amt">
     </div>
 
     
-    <button class="income-btn">DONE</button>
-    <button  class="expence-btn" style="background-color: rgba(255, 0, 0, 0.74);">CANCEL</button>
+    <button class="income-btn" id="income-btn">DONE</button>
+    <button  class="expence-btn" id="income-cancel-btn" style="background-color: rgba(255, 0, 0, 0.74);">CANCEL</button>
   
  </div>
   </section>
